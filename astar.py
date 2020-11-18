@@ -101,6 +101,7 @@ def reconstruct_path(came_from, current, draw):
 		draw()
 
 
+#astar algorithm
 def algorithm(draw, grid, start, end):
 	count = 0
 	open_set = PriorityQueue()
